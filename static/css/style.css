@@ -1,10 +1,37 @@
+/* Style for the map container */
+#map {
+  height: 900px;
+  width: 100%;
+}
+
+/* Optional: Customize the body background color, margins, etc. */
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
   padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
   margin: 0;
 }
 
-#map,
-body,
-html {
-  height: 100%;
+/* Styling for the legend, positioned in the bottom-right corner */
+.leaflet-control.legend {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Styling for the legend entries */
+.leaflet-control.legend i {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
 }
